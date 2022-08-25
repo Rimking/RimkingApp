@@ -1,0 +1,115 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/Privilerr/Privilerr",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor": "#aaaaff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/PhoneL/PhoneL",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/PwdL/PwdL",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/HomePage/HomePage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/Dynamic/Dynamic",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Myself/Myself",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/PerNews/PerNews",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroun0dColor": "#F8F8F8",
+		"navigationBarTextStyle": "black",
+		"navigationStyle": "custom",
+		"app-plus": {
+			"background": "#efeff4",
+			"bounce": "none",
+			"statusbar": {
+				"immersed": true
+			}
+		}
+	},
+	"tabBar": {
+		"color": "#131313",
+		"selectedColor": "#BF87EC",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"midButton": {
+			"iconPath": "static/imgs/sqbb_ball.png",
+			"width": "50px",
+			"height": "55px",
+			"iconWidth": "40px"
+		},
+		"list": [{
+				"iconPath": "static/imgs/statr_ball.png",
+				"selectedIconPath": "static/imgs/statr_ball_select.png",
+				"pagePath": "pages/HomePage/HomePage",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/imgs/eye.png",
+				"selectedIconPath": "static/imgs/eye_select.png",
+				"pagePath": "pages/Dynamic/Dynamic",
+				"text": "动态"
+			},
+			{
+				"iconPath": "static/imgs/news.png",
+				"selectedIconPath": "static/imgs/news_select.png",
+				"pagePath": "pages/Privilerr/Privilerr",
+
+				"text": "私信"
+			},
+			{
+				"iconPath": "static/imgs/myself.png",
+				"selectedIconPath": "static/imgs/myself_select.png",
+				"pagePath": "pages/Myself/Myself",
+				"text": "我的"
+			}
+		]
+
+
+
+	}
+}

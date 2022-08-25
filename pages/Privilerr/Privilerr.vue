@@ -1,7 +1,7 @@
 <template>
 	<view id="Privilerr">
 		<view class="nav_cons">
-			<view class="lefTils">消息</view>
+			<view class="lefTils">消息2</view>
 			<view class="cenrerCn"></view>
 			<view class="rightBtn">
 				<u-icon name="plus-circle" size="42rpx" color='black'></u-icon>

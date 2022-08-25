@@ -1,0 +1,166 @@
+ .PhoneL{
+	 width: 100%;
+	 height: 100vh;
+	 position: relative;
+	 background-color: transparent;
+	 z-index: 0;
+ }  
+ 
+ .leftB{
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 width: 80rpx;
+	 height: 300rpx;
+	 background-color: blue;
+	 border-radius: 50%;
+	 filter: blur(100rpx);
+	 z-index:-1;
+ }
+ .leftR{
+	 position: absolute;
+	 right: 0;
+	 top: -50rpx;	
+	 width: 100rpx;
+	 height: 300rpx;
+	 background-color: plum;
+	 border-radius: 50%;
+	 filter: blur(80rpx);
+	 z-index: -1;
+ } 
+ .phoneTest{
+	 width: 550rpx;
+	 height: 60rpx;
+	 margin: 0 auto;
+	margin-top: 250rpx;
+	font-size: 36rpx;
+	font-weight: 700;
+ }
+ // 登录内容
+.loginView{
+	width: 550rpx;
+	 height: 400rpx;
+	 margin: 0 auto;
+	margin-top: 80rpx;
+	font-weight: 700;
+	// background-color: pink;
+	.inputPhone,.inputYzm{
+		width: 100%;
+		height: 80rpx;
+		margin-top: 20rpx;
+		display: flex;
+		border-bottom: 1px solid #d9d9d9;
+		.leftLo{
+			text-align: center;
+			line-height: 80rpx;
+			width: 100rpx;
+			height: 80rpx
+		}
+		.inputs{
+			flex: 1;
+			input{
+				height: 80rpx;
+				outline: none;
+				font-size: 24rpx;
+				
+			}
+		}
+	}
+	.inputYzm{
+			.yzmCons{
+				flex: 1;
+				input{
+					height: 80rpx;
+					outline: none;
+					font-size: 24rpx;
+				}}
+			.sendYzn{
+				flex: 1;
+				text-align: center;
+				line-height: 80rpx;
+				font-size: 24rpx;
+				text{
+					padding: 10rpx 50rpx;
+					border-radius: 80rpx;
+					color: #dedede;
+					border: 1px solid #dedede;
+				}
+				}
+	}
+	
+	// 提示内容
+	.tsNes{
+		
+		font-size: 24rpx;
+		line-height: 30rpx;
+		color: #dedede;
+		
+	}
+	.loginBtn{
+		width: 300rpx;
+		height: 70rpx;
+		margin: 0 auto;
+		background-color: #dedede;
+		text-align: center;
+		line-height: 70rpx;
+		font-size: 26rpx;
+		color: white;
+		margin-top: 80rpx;
+		border-radius: 50rpx;
+	}
+	
+	
+}
+
+// 其他部分
+
+.checkOher{
+	width: 550rpx;
+	height: 180rpx;
+	margin: 0 auto;
+	margin-top:200rpx;
+	.othtitle{
+		width: 100%;
+		height: 60rpx;
+		display: flex;
+		.lcon,.rcon{
+			width: 180rpx;
+			height: 3rpx;
+			margin-top: 27rpx;
+			background-color: #dedede;
+		}
+		.cTil{
+			text-align: center;
+			flex: 1;
+			color: #dedede;
+			font-size: 24rpx;
+			line-height: 50rpx;
+		}
+	}
+	.othBtns{
+		width: 100%;
+		height: 80rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		.selwechat,.selqq{
+			width: 70rpx;
+			height: 70rpx;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 70rpx;
+			background-color: #00c500;
+			
+		}
+		.selqq{
+			background-color: #55aaff;
+		}
+	
+	}
+}
+
+
+ 
+ 
+ 
+ 

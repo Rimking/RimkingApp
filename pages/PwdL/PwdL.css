@@ -1,0 +1,97 @@
+.PwdL {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: transparent;
+  z-index: 0;
+}
+.leftB {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80rpx;
+  height: 300rpx;
+  background-color: blue;
+  border-radius: 50%;
+  filter: blur(100rpx);
+  z-index: -1;
+}
+.leftR {
+  position: absolute;
+  right: 0;
+  top: -50rpx;
+  width: 100rpx;
+  height: 300rpx;
+  background-color: plum;
+  border-radius: 50%;
+  filter: blur(80rpx);
+  z-index: -1;
+}
+.phoneTest {
+  width: 550rpx;
+  height: 60rpx;
+  margin: 0 auto;
+  margin-top: 250rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.loginView {
+  width: 550rpx;
+  height: 400rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+  font-weight: 700;
+}
+.loginView .inputPhone,
+.loginView .inputYzm {
+  width: 100%;
+  height: 80rpx;
+  margin-top: 20rpx;
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+}
+.loginView .inputPhone .leftLo,
+.loginView .inputYzm .leftLo {
+  text-align: center;
+  line-height: 80rpx;
+  width: 100rpx;
+  height: 80rpx;
+}
+.loginView .inputPhone .inputs,
+.loginView .inputYzm .inputs {
+  flex: 1;
+}
+.loginView .inputPhone .inputs input,
+.loginView .inputYzm .inputs input {
+  height: 80rpx;
+  outline: none;
+  font-size: 24rpx;
+}
+.loginView .inputYzm .yzmCons {
+  flex: 1;
+}
+.loginView .inputYzm .yzmCons input {
+  height: 80rpx;
+  outline: none;
+  font-size: 24rpx;
+}
+.loginView .tsNes {
+  float: right;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  color: #dedede;
+  padding: 0 10rpx;
+  margin-top: 20rpx;
+}
+.loginView .loginBtn {
+  width: 300rpx;
+  height: 70rpx;
+  margin: 0 auto;
+  background-color: #dedede;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 26rpx;
+  color: white;
+  margin-top: 120rpx;
+  border-radius: 50rpx;
+}

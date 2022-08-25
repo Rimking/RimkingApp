@@ -1,0 +1,222 @@
+ #Privilerr{
+	 padding: 80rpx 30rpx 50rpx 30rpx;
+	 box-sizing: border-box;
+	 margin: 0;
+	 background-color: #FFFFFF;
+	 .nav_cons {
+	  	width: calc(100vw - 60rpx);
+	  	height: 80rpx;
+	  	display: flex;
+	  	line-height: 80rpx;
+		.cenrerCn {
+				flex: 1;
+			}
+		
+			.lefTils {
+				width: 100rpx;
+				height: 80rpx;
+				font-weight: bold;
+				font-size: 40rpx;
+			}
+		
+			.rightBtn {
+				width: 100rpx;
+				height: 80rpx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 32rpx;
+			}
+	  }
+	 
+	 	// neiberHood
+	 	.neiberHood{
+	 		width: calc(100vw - 60rpx);
+	 		height: 320rpx;
+	 		margin-top: 20rpx;
+			.neberTils{
+				width: 100%;
+				height: 80rpx;
+				line-height: 80rpx;
+				font-weight: bold;
+				.lNerlgo{
+					float: left;
+					width: 50rpx;
+					height: 80rpx;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+			.userList{
+				width: 100%;
+				height: 220rpx;
+				margin-top: 10rpx;
+				.leftLoction{
+					position: relative;
+					float: left;
+					width: 180rpx;
+					height: 220rpx;
+					background-color: #FFFFFF;
+					.leftsCr{
+						position: absolute;
+						right: 0;
+						top:50%;
+						margin-top: -15rpx;
+						padding: 30rpx 4rpx;
+						background-color: rgba(235, 235, 235, 0.5);
+					}
+					.headLogpo{
+						width: 130rpx;
+						height: 130rpx;
+						margin:  0 auto;
+						display:flex;
+						justify-content: center;
+						align-items: center;
+						border-radius: 50%;
+					}
+					.hmiaos{
+						width: 100%;
+						height: 55rpx;
+						text-align: center;
+						line-height: 55rpx;
+						font-size: 30rpx;
+					}
+					.losornum{
+						width: 100%;
+						height: 45rpx;
+						text-align: center;
+						line-height: 45rpx;
+						font-size: 24rpx;
+						color: gray;
+					}
+				
+				}
+				.rightcons{
+					overflow: scroll;
+					display:flex;
+					flex-direction: row;
+					height: 220rpx;
+					.leftLoction{
+						position: relative;
+						float: left;
+						width: 180rpx;
+						height: 220rpx;
+						background-color: #FFFFFF;
+						margin-right: 15rpx;
+						margin-left: 15rpx;
+						.leftsCr{
+							position: absolute;
+							right: 0;
+							top:50%;
+							margin-top: -15rpx;
+			 				padding: 30rpx 4rpx;
+							background-color: rgba(235, 235, 235, 0.5);
+						}
+						.headLogpo{
+							width: 130rpx;
+							height: 130rpx;
+							margin:  0 auto;
+							display:flex;
+							justify-content: center;
+							align-items: center;
+							border-radius: 50%;
+							border: 4rpx solid #DA9899;
+							padding: 3rpx;
+							box-sizing: border-box;
+						}
+						.hmiaos{
+							width: 100%;
+							height: 55rpx;
+							text-align: center;
+							line-height: 55rpx;
+							font-size: 30rpx;
+						}
+						.losornum{
+							width: 100%;
+							height: 45rpx;
+							text-align: center;
+							line-height: 45rpx;
+							font-size: 24rpx;
+							color: gray;
+						}
+					
+					}
+					
+				}
+			}
+	 	} 
+	 	
+		// 列表内容
+		.newSlist{
+			width: calc(100vw - 60rpx);
+			min-height: 600rpx;
+			margin-top: 15rpx;
+			position: relative;
+			// 空列表提示
+			.notHaveNews{
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left: -200rpx;
+				margin-top: -200rpx;
+				width: 400rpx;
+				height: 400rpx;
+			}
+			// itemCons
+			.itemCons{ 
+				width: 100%; 
+				min-height: 600rpx;				
+				.itemDm{
+					width: 100%; 
+					height: 130rpx;
+					display:flex;
+					margin-top: 20rpx;
+					overflow: hidden;
+					position: relative;
+					.dms{
+						position: absolute;
+						left: 50%;
+						bottom: 0;
+						width: 400rpx;
+						margin-left: -200rpx;
+						height: 2rpx;
+						background-color: rgba(222, 222, 222, 0.5);
+					}
+					.itemCons{
+						flex: 1;
+						padding: 0 20rpx;
+						box-sizing: border-box;
+						.itmTils{
+							width: 100%;
+							height: 60rpx;
+							line-height: 60rpx;
+							font-weight: bold;
+							font-size: 28rpx;
+							color: #1D1D1D;
+						}
+						.itmscons{
+							width: 100%;
+							height: 60rpx;
+							line-height: 60rpx;
+							font-size: 24rpx;
+						}
+						
+					} 
+					.itemHead{
+						width: 140rpx;
+						height: 130rpx;
+						display:flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.itemTime{
+						width: 160rpx;
+						height: 130rpx;
+						font-size: 28rpx;
+						color: gray;
+					}
+				}
+			}
+		}
+ }

@@ -1,0 +1,212 @@
+ #Myself{
+	 padding: 0;
+	 margin: 0 ;
+ 	box-sizing: border-box; 
+	background-color: #F7F8FC;
+ }
+ // selfConensts
+ .selfConensts{
+	 width: 100vw;
+	 overflow: auto;
+	 background-image: linear-gradient(#B2B6FF,#ffffff);
+	 padding: 0 4vw;
+	 padding-top: 8vh;
+	  padding-bottom: 10rpx;
+	 box-sizing: border-box; 
+	 .fis{ 
+		 width: 92vw;
+		 height: 155rpx;
+		 padding-left: 30rpx;
+		 box-sizing: border-box;
+		 .headImage{
+		 		 float: left;
+ 		 		 width: 130rpx;
+		 		 height: 130rpx;
+		 		 border-radius: 50%;
+		 		 margin-right: 15rpx;
+				 margin-bottom: 30rpx;
+		 		 border: 2px solid rgba(255,255, 255, 0.4);
+		 }
+		 .leftCens{
+		 		 float: left;
+		 		 width:57vw; 
+		 		 height: 130rpx;
+		 		 .userName{
+		 				 width: 57vw;
+		 		 		 line-height: 70rpx;
+		 		 		 font-size: 40rpx;
+		 				 font-weight: bold;
+		 		 }
+		 		 .userId{
+		 				width:57vw;
+		 		 		 line-height: 55rpx;
+		 		 		 font-size:28rpx;
+		 		 }
+		 }
+		 .moreCons{
+		 		float: left;
+		 		width: 5vw;
+		 		height: 130rpx;
+		 		display: flex;
+		 		flex-direction: column;
+		 		justify-content: center;
+		 } 
+	 }
+	 
+	 // userIndex
+	 .userIndex{
+		 float: left;
+		 width: 92vw;
+		 height: 120rpx;
+		 display: flex;
+		 text-align: center;
+		 margin: 0 auto;
+		 margin-top: 10rpx;
+		 .itemIs{
+			 flex: 1;
+			 .num{
+			 	height: 70rpx;
+				line-height: 70rpx;
+				font-weight: bold;
+				font-size: 30rpx;
+			 }
+			 .titles{
+			 	height: 50rpx;
+				font-size: 28rpx;
+			 }
+		 }
+	 } 
+ }
+#bomConents{
+	width: 100vw;
+	padding: 0 20rpx ;
+	box-sizing: border-box;
+	margin-top: 10rpx;
+	overflow: auto;
+	padding-bottom:30rpx ;
+	// dotask任务
+	.dotask{
+		width:calc( 100vw - 40rpx);
+		height: 260rpx; 
+		border-radius: 30rpx;
+		overflow: hidden;
+		background-color: #FFFFFF;
+		.doTosCOne{
+			position: relative;
+			width:calc( 100vw - 40rpx);
+			height: 130rpx;
+			padding:15rpx 20rpx;
+			box-sizing: border-box;
+			color: white;
+			background-image: linear-gradient(to right,#CDB0FF,#968CFF);
+			.texts{
+				width: 60%;
+				height: 50rpx;
+				font-size: 38rpx;
+				font-family: Arial, Helvetica, sans-serif;
+				
+			}
+			.bsJds{
+				width: 60%;
+				font-size: 26rpx;
+				height: 40rpx;
+				.jdtls{
+					float: left;
+					width: 80rpx;
+				}
+				.jdtLons{
+					float: left;
+					width: 200rpx;
+					height: 20rpx;
+					margin-top: 10rpx;
+					border-radius: 15rpx;
+					background-color: rgba(255, 255, 255, 0.7);
+				}
+			}
+			.moreTask{
+				position: absolute;
+				right: 20rpx;
+				top: 30rpx;
+				width: 180rpx;
+				height: 50rpx;
+				font-size: 28rpx;
+			}
+		}
+		// 下方部分
+		.btmCones{
+			position: relative;
+			width:calc( 100vw - 40rpx);
+			height: 130rpx;
+			padding:15rpx 30rpx;
+			box-sizing: border-box;
+			color: white;
+			
+			.leftLogs{
+				float: left;
+				width: 100rpx;
+				height: 100rpx;
+				background-color:#9297F6;
+				border-radius: 50rpx;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				margin-right: 15rpx;
+				
+			}
+			.btcon,.jfcons{
+				float: left;
+				width: 45vw;
+				height: 40rpx;
+				font-size: 28rpx;
+				color:black;
+				line-height: 40rpx;
+			}
+			.jfcons{
+				font-size: 24rpx;
+			}
+			
+			// toSuc
+			.toSuc{
+				position: absolute;
+				right: 30rpx;
+				top: 20rpx;
+				padding: 10rpx 15rpx;
+				border-radius: 30rpx;
+				font-size:28rpx;
+				background-image: linear-gradient(to right,#CDB0FF,#968CFF);
+			}
+		}
+		
+		
+	} 
+	// 特殊选项卡
+	.spcSels{
+		width:calc( 100vw - 40rpx);
+		background-color: #fff;
+		margin-top: 20rpx;
+		border-radius: 30rpx;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		overflow: auto;
+		.spcItems{
+			width: 25%;
+			height: 130rpx;
+			margin-top: 30rpx;
+			.tabULofs{
+				width: 70rpx;
+				height: 70rpx;
+				margin: 0 auto;
+			}
+			.tabUtiels{
+				width: 100%;
+				height: 50rpx;
+				line-height: 50rpx;
+				text-align: center;
+				font-size: 28rpx;
+			}
+		}
+	}
+}

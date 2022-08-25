@@ -1,0 +1,210 @@
+#Privilerr {
+  padding: 80rpx 30rpx 50rpx 30rpx;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+#Privilerr .nav_cons {
+  width: calc(100vw - 60rpx);
+  height: 80rpx;
+  display: flex;
+  line-height: 80rpx;
+}
+#Privilerr .nav_cons .cenrerCn {
+  flex: 1;
+}
+#Privilerr .nav_cons .lefTils {
+  width: 100rpx;
+  height: 80rpx;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+#Privilerr .nav_cons .rightBtn {
+  width: 100rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+#Privilerr .neiberHood {
+  width: calc(100vw - 60rpx);
+  height: 320rpx;
+  margin-top: 20rpx;
+}
+#Privilerr .neiberHood .neberTils {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: bold;
+}
+#Privilerr .neiberHood .neberTils .lNerlgo {
+  float: left;
+  width: 50rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Privilerr .neiberHood .userList {
+  width: 100%;
+  height: 220rpx;
+  margin-top: 10rpx;
+}
+#Privilerr .neiberHood .userList .leftLoction {
+  position: relative;
+  float: left;
+  width: 180rpx;
+  height: 220rpx;
+  background-color: #FFFFFF;
+}
+#Privilerr .neiberHood .userList .leftLoction .leftsCr {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -15rpx;
+  padding: 30rpx 4rpx;
+  background-color: rgba(235, 235, 235, 0.5);
+}
+#Privilerr .neiberHood .userList .leftLoction .headLogpo {
+  width: 130rpx;
+  height: 130rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+#Privilerr .neiberHood .userList .leftLoction .hmiaos {
+  width: 100%;
+  height: 55rpx;
+  text-align: center;
+  line-height: 55rpx;
+  font-size: 30rpx;
+}
+#Privilerr .neiberHood .userList .leftLoction .losornum {
+  width: 100%;
+  height: 45rpx;
+  text-align: center;
+  line-height: 45rpx;
+  font-size: 24rpx;
+  color: gray;
+}
+#Privilerr .neiberHood .userList .rightcons {
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  height: 220rpx;
+}
+#Privilerr .neiberHood .userList .rightcons .leftLoction {
+  position: relative;
+  float: left;
+  width: 180rpx;
+  height: 220rpx;
+  background-color: #FFFFFF;
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+}
+#Privilerr .neiberHood .userList .rightcons .leftLoction .leftsCr {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -15rpx;
+  padding: 30rpx 4rpx;
+  background-color: rgba(235, 235, 235, 0.5);
+}
+#Privilerr .neiberHood .userList .rightcons .leftLoction .headLogpo {
+  width: 130rpx;
+  height: 130rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 4rpx solid #DA9899;
+  padding: 3rpx;
+  box-sizing: border-box;
+}
+#Privilerr .neiberHood .userList .rightcons .leftLoction .hmiaos {
+  width: 100%;
+  height: 55rpx;
+  text-align: center;
+  line-height: 55rpx;
+  font-size: 30rpx;
+}
+#Privilerr .neiberHood .userList .rightcons .leftLoction .losornum {
+  width: 100%;
+  height: 45rpx;
+  text-align: center;
+  line-height: 45rpx;
+  font-size: 24rpx;
+  color: gray;
+}
+#Privilerr .newSlist {
+  width: calc(100vw - 60rpx);
+  min-height: 600rpx;
+  margin-top: 15rpx;
+  position: relative;
+}
+#Privilerr .newSlist .notHaveNews {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200rpx;
+  margin-top: -200rpx;
+  width: 400rpx;
+  height: 400rpx;
+}
+#Privilerr .newSlist .itemCons {
+  width: 100%;
+  min-height: 600rpx;
+}
+#Privilerr .newSlist .itemCons .itemDm {
+  width: 100%;
+  height: 130rpx;
+  display: flex;
+  margin-top: 20rpx;
+  overflow: hidden;
+  position: relative;
+}
+#Privilerr .newSlist .itemCons .itemDm .dms {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 400rpx;
+  margin-left: -200rpx;
+  height: 2rpx;
+  background-color: rgba(222, 222, 222, 0.5);
+}
+#Privilerr .newSlist .itemCons .itemDm .itemCons {
+  flex: 1;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+#Privilerr .newSlist .itemCons .itemDm .itemCons .itmTils {
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #1D1D1D;
+}
+#Privilerr .newSlist .itemCons .itemDm .itemCons .itmscons {
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+}
+#Privilerr .newSlist .itemCons .itemDm .itemHead {
+  width: 140rpx;
+  height: 130rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Privilerr .newSlist .itemCons .itemDm .itemTime {
+  width: 160rpx;
+  height: 130rpx;
+  font-size: 28rpx;
+  color: gray;
+}

@@ -1,0 +1,51 @@
+.DynamicModel {
+  padding: 80rpx 30rpx 50rpx 30rpx;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+.DynamicModel .nav_cons {
+  width: calc(100vw - 60rpx);
+  height: 80rpx;
+  display: flex;
+  line-height: 80rpx;
+}
+.DynamicModel .nav_cons .leftModel {
+  flex: 1;
+}
+.DynamicModel .nav_cons .leftModel .lefTils {
+  float: left;
+  padding: 0 20rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  color: gray ;
+  text-align: center;
+  transition: all 0.3s;
+}
+.DynamicModel .nav_cons .leftModel .selectTar {
+  color: black;
+  font-size: 40rpx;
+}
+.DynamicModel .nav_cons .rightBtn {
+  width: 250rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+.DynamicModel .swiperModel {
+  width: calc(100vw - 60rpx);
+  height: 300rpx;
+  background-color: red;
+  margin-top: 20rpx;
+  border-radius: 15rpx;
+  overflow: hidden;
+}
+.DynamicModel .actieModel {
+  width: calc(100vw - 60rpx);
+  height: 600rpx;
+  background-color: pink;
+  margin-top: 40rpx;
+}

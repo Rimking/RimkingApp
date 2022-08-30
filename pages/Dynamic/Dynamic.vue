@@ -12,15 +12,11 @@
 		</view>
 		<!-- 轮播图部分 -->
 		<view class="swiperModel">
-			<u-swiper :list="swiperList1" height="300" @change="change" @click="click"></u-swiper>
+			<u-swiper :list="swiperList1" height="300"></u-swiper>
 		</view>
 		<!-- 动态部分 -->
 		<view class="actieModel">
-			<!-- 头像部分固定，结尾有分割线，文字内容，可以展开， -->
-
-
-
-
+			<active-model></active-model>
 		</view>
 		<!-- 圈子部分 -->
 		<view class="circleModel"></view>

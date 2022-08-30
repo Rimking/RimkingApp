@@ -37,15 +37,13 @@
 }
 .DynamicModel .swiperModel {
   width: calc(100vw - 60rpx);
-  height: 300rpx;
-  background-color: red;
+  height: 250rpx;
   margin-top: 20rpx;
   border-radius: 15rpx;
   overflow: hidden;
 }
 .DynamicModel .actieModel {
   width: calc(100vw - 60rpx);
-  height: 600rpx;
-  background-color: pink;
-  margin-top: 40rpx;
+  height: auto;
+  margin-top: 30rpx;
 }

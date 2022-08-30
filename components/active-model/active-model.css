@@ -1,0 +1,222 @@
+.reward {
+  width: calc(100vw - 60rpx);
+  height: 50rpx;
+  position: relative;
+}
+.reward view {
+  position: absolute;
+  left: -30rpx;
+  top: 0;
+  padding: 0 30rpx;
+  background-image: linear-gradient(45deg, #FD6D6C, #FC9F81);
+  text-align: center;
+  font-size: 28rpx;
+  color: white;
+  border-radius: 0 0 30rpx 0;
+}
+.rewaCons {
+  width: calc(100vw - 60rpx);
+  height: auto;
+  display: flex;
+  padding-bottom: 30rpx;
+}
+.rewaCons .leftHeads {
+  width: 100rpx;
+  height: 100%;
+}
+.rewaCons .rightCons {
+  flex: 1;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+.rewaCons .rightCons .selfCons {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+}
+.rewaCons .rightCons .selfCons .leNamCons {
+  flex: 1;
+}
+.rewaCons .rightCons .selfCons .leNamCons .userConslab {
+  width: 100%;
+  height: 60rpx;
+  line-height: 70rpx;
+}
+.rewaCons .rightCons .selfCons .leNamCons .userConslab .userName,
+.rewaCons .rightCons .selfCons .leNamCons .userConslab .userSex,
+.rewaCons .rightCons .selfCons .leNamCons .userConslab .userAge {
+  padding: 0 5rpx ;
+  font-size: 26rpx;
+}
+.rewaCons .rightCons .selfCons .leNamCons .userConslab .userAge {
+  color: lightgray;
+}
+.rewaCons .rightCons .selfCons .leNamCons .userConslab .userName {
+  font-size: 32rpx;
+}
+.rewaCons .rightCons .selfCons .leNamCons .sendTimes {
+  width: 100%;
+  height: 30rpx;
+  line-height: 26rpx;
+  font-size: 26rpx;
+  color: lightgray;
+}
+.rewaCons .rightCons .selfCons .follow {
+  float: right;
+  width: 240rpx;
+  height: 60rpx;
+  display: flex;
+}
+.rewaCons .rightCons .selfCons .follow .ddd {
+  width: 100rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+}
+.rewaCons .rightCons .selfCons .follow .ddd image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.rewaCons .rightCons .selfCons .follow .fsol {
+  width: 140rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  color: #8D83BF;
+  border: 2rpx solid #8D83BF;
+}
+.rewaCons .rightCons .textCons {
+  width: 100%;
+  height: auto;
+  font-size: 26rpx;
+  margin: 20rpx 0;
+}
+.rewaCons .rightCons .sendImages {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20rpx;
+}
+.rewaCons .rightCons .sendImages .itemImage {
+  min-width: 160rpx;
+  max-width: 240rpx;
+  max-height: 280rpx;
+  min-height: 160rpx;
+  margin-right: 20rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+.rewaCons .rightCons .sendImages .itemImage image {
+  min-width: 160rpx;
+  max-width: 240rpx;
+  max-height: 280rpx;
+  min-height: 160rpx;
+}
+.rewaCons .rightCons .shopSel {
+  width: 100%;
+  height: 200rpx;
+  padding-left: 40rpx;
+  box-sizing: border-box;
+  border-radius: 30rpx;
+  display: flex;
+  background-image: linear-gradient(#DFE3FE, #ECE3FE);
+}
+.rewaCons .rightCons .shopSel .pricens {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 40rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.rewaCons .rightCons .shopSel .pricens image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.rewaCons .rightCons .shopSel .priCons {
+  width: 160rpx;
+  height: 100rpx;
+  margin-top: 40rpx;
+  margin-right: 20rpx;
+}
+.rewaCons .rightCons .shopSel .priCons .prTils {
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.rewaCons .rightCons .shopSel .priCons .mons {
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.rewaCons .rightCons .shopSel .priCons .mons image {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 3rpx;
+}
+.rewaCons .rightCons .shopSel .luckPer {
+  flex: 1;
+  height: 140rpx;
+  margin-top: 40rpx;
+  margin-right: 20rpx;
+}
+.rewaCons .rightCons .shopSel .luckPer .perS {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: darkgray;
+}
+.rewaCons .rightCons .shopSel .luckPer .perS image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.rewaCons .rightCons .shopSel .luckPer .lucTisl {
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+.rewaCons .rightCons .seTalsModel {
+  width: 100%;
+  height: 50rpx;
+  margin-top: 30rpx;
+  display: flex;
+}
+.rewaCons .rightCons .seTalsModel .funcMin {
+  flex: 1;
+  display: flex;
+}
+.rewaCons .rightCons .seTalsModel .funcMin .mi_mo {
+  width: 120rpx;
+  line-height: 50rpx;
+  margin-right: 20rpx;
+  font-size: 24rpx;
+  color: lightgray;
+}
+.rewaCons .rightCons .seTalsModel .funcMin .mi_mo .uims {
+  float: left;
+  width: 40rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 10rpx;
+}
+.rewaCons .rightCons .seTalsModel .funcMin .mi_mo .uims image {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+}
+.rewaCons .rightCons .seTalsModel .sTalks {
+  width: 120rpx;
+  height: 50rpx;
+  color: white;
+  font-size: 26rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  background-image: linear-gradient(#FBA199, #FC6996);
+}
